@@ -5,9 +5,9 @@ My Personal Website
 ## To Deploy the site
 
 ```sh
-bash deploy.sh *repoName*
+bash deploy.sh
 ```
-
+<!-- 
 ```zsh
 #!/bin/bash
 
@@ -37,4 +37,4 @@ hugo -d ../
 # echo
 # cd 
 
-```
+``` -->
