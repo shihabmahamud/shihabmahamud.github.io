@@ -1,0 +1,11 @@
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <!-- CopyRight section -->
+            <span>&copy; {{ now.Format "2006" }}</span>
+            {{ if .Site.Author.name }}<span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>{{ end }}
+            <!-- Privacy Policy  -->
+            <span> <a href="{{ .Site.BaseURL }}/privacy_policy">Privacy Policy</a></span>
+        </div>
+    </div>
+</footer>
