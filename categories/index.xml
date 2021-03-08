@@ -6,49 +6,31 @@
     <description>Recent content in Categories on Shihab Mahamud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shihabmahamud.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2020 01:24:43 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://shihabmahamud.github.io/categories/test/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <title>Book-review</title>
+      <link>https://shihabmahamud.github.io/categories/book-review/</link>
+      <pubDate>Tue, 22 Sep 2020 01:24:43 +0600</pubDate>
       
-      <guid>https://shihabmahamud.github.io/categories/test/</guid>
+      <guid>https://shihabmahamud.github.io/categories/book-review/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>测试</title>
-      <link>https://shihabmahamud.github.io/categories/%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <title>Programming</title>
+      <link>https://shihabmahamud.github.io/categories/programming/</link>
+      <pubDate>Tue, 22 Sep 2020 01:24:43 +0600</pubDate>
       
-      <guid>https://shihabmahamud.github.io/categories/%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://shihabmahamud.github.io/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>syntax</title>
-      <link>https://shihabmahamud.github.io/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Review</title>
+      <link>https://shihabmahamud.github.io/categories/review/</link>
+      <pubDate>Tue, 22 Sep 2020 01:24:43 +0600</pubDate>
       
-      <guid>https://shihabmahamud.github.io/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://shihabmahamud.github.io/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://shihabmahamud.github.io/categories/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test with whitespaces</title>
-      <link>https://shihabmahamud.github.io/categories/test-with-whitespaces/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://shihabmahamud.github.io/categories/test-with-whitespaces/</guid>
+      <guid>https://shihabmahamud.github.io/categories/review/</guid>
       <description></description>
     </item>
     

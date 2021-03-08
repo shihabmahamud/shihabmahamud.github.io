@@ -34,7 +34,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        # emoji:
         subtitle: Doing Diploma in Computer Technology
         avatar:
             local: true
@@ -49,6 +49,7 @@ params:
     comments:
         enabled: true
         provider: disqus
+        disqusShortname: shihab-mahamud
 
         utterances:
             repo:
