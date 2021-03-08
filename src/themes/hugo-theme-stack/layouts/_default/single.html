@@ -3,7 +3,8 @@
     {{ partial "article/article.html" . }}
 
     {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
-        {{ partial "comments/include" . }}
+        <!-- {{ partial "comments/include" . }} -->
+        {{ partial "comments/disqus.html" . }}
     {{ end }}
 
     {{ partialCached "footer/footer" . }}
