@@ -14,12 +14,38 @@
 {{- partial "head/opengraph/include.html" . -}}
 
 {{- range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{- end -}}
 
 {{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" href="{{ . }}" />
+<link rel="shortcut icon" href="{{ . }}" />
 {{ end }}
 
 {{- template "_internal/google_analytics_async.html" . -}}
 {{- partial "head/custom.html" . -}}
+
+<style>
+    section.copyright a.social-icon {
+        float: right;
+        margin-left: 7px;
+    }   
+    /* /* div.social-row ul {
+        width: 70%;
+        margin: auto;
+    } */
+    /* section.copyright li { */
+        /* display: inline-block; */
+
+        /* list-style-type: none; */
+        /* float: left; */
+        /* margin: 0 auto;
+        margin-left: .8rem; */
+    /* } */
+
+    /* div.social-row li:first-child {
+        margin-left: 0;
+    }
+    div.social-row img {
+        width: 45px;
+    } */ 
+</style>

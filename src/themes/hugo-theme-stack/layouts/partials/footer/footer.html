@@ -1,13 +1,21 @@
 {{- $ThemeVersion := "2.2.0" -}}
 <footer class="site-footer">
     <section class="copyright">
-        &copy; 
+        &copy;
         {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
-            {{ .Site.Params.footer.since }} - 
+        {{ .Site.Params.footer.since }} -
         {{ end }}
         {{ now.Format "2006" }} <a href="{{ .URL }}">{{ .Site.Title }}</a>
+
+        <a href="https://www.facebook.com/shihab.mahamud.75033" class="social-icon">Facebook</a>
+        <a href="https://twitter.com/shihabmahamud26" class="social-icon">Twitter</a>
+        <a href="https://www.instagram.com/shihab8260" class="social-icon">Instagram</a>
+        <a href="https://www.linkedin.com/in/shihab-mahamud-19b1341b6" class="social-icon">LinkedIn</a>
+        <a href="https://stackoverflow.com/users/14192124/shihab-mahamud" class="social-icon">StackOverflow</a>
+        <a href="https://github.com/shihabmahamud" class="social-icon">GitHub</a>
+
     </section>
-    
+
     <!-- <section class="powerby">
         {{ with .Site.Params.footer.customText }}
             {{ . | safeHTML }} <br/>
