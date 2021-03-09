@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project on Shihab Mahamud</title>
+    <title>Projects on Shihab Mahamud</title>
     <link>https://shihabmahamud.github.io/categories/projects/</link>
-    <description>Recent content in Project on Shihab Mahamud</description>
+    <description>Recent content in Projects on Shihab Mahamud</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://shihabmahamud.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Mar 2021 10:09:41 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CPH Documentation</title>
+      <link>https://shihabmahamud.github.io/p/cph-documentation/</link>
+      <pubDate>Tue, 09 Mar 2021 10:09:41 +0600</pubDate>
+      
+      <guid>https://shihabmahamud.github.io/p/cph-documentation/</guid>
+      <description>Summary Competitive Programming Helper (CPH) is a command line tool that automates many tasks for the Competitive Programmer. It&amp;rsquo;s written in Bash shell scripting.
+ Installation Installation on linux system Step 1: Install dependence If the dependence does not install in your system then you must install it. The dependence are bash, curl and g++
+Debian/Ubuntu:
+sudo apt update sudo apt install bash curl g++ Fadora/Centos:
+sudo dnf check-update sudo dnf install bash curl g++ Step 2: Install the cph tools curl -fLo cph https://raw.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -6,7 +6,7 @@ author: "Shihab Mahamud"
 image: "Competitive-Programming-img.png"
 math:  
 categories : [
-    "Blogs",
+    "Projects",
 ]
 tags : [
     "Programming",

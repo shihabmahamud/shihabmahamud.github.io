@@ -1,6 +1,6 @@
 ---
 title: "Blogs"
-description: "Blog Categories"
+# description: "My Blogs"
 slug: "Blogs"
 image: "blogs-img.jpg"
 style:
