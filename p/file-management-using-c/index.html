@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=''><title>File Managment Using C</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='File I/O using C programming language'><title>File Management Using C</title>
 
-<link rel='canonical' href='https://shihabmahamud.github.io/p/file-managment-using-c/'>
+<link rel='canonical' href='https://shihabmahamud.github.io/p/file-management-using-c/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='File Managment Using C'>
-<meta property='og:description' content=''>
-<meta property='og:url' content='https://shihabmahamud.github.io/p/file-managment-using-c/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='File Management Using C'>
+<meta property='og:description' content='File I/O using C programming language'>
+<meta property='og:url' content='https://shihabmahamud.github.io/p/file-management-using-c/'>
 <meta property='og:site_name' content='Shihab Mahamud'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-03-09T06:31:25&#43;06:00'/><meta property='article:modified_time' content='2021-03-09T06:31:25&#43;06:00'/><meta property='og:image' content='https://shihabmahamud.github.io/p/file-managment-using-c/file_handling_c.jpg' />
-<meta name="twitter:title" content="File Managment Using C">
-<meta name="twitter:description" content=""><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://shihabmahamud.github.io/p/file-managment-using-c/file_handling_c.jpg' /><style>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Frogramming' /><meta property='article:tag' content='File-I/O' /><meta property='article:published_time' content='2021-03-09T06:31:25&#43;06:00'/><meta property='article:modified_time' content='2021-03-09T06:31:25&#43;06:00'/><meta property='og:image' content='https://shihabmahamud.github.io/p/file-management-using-c/file_handling_c.jpg' />
+<meta name="twitter:title" content="File Management Using C">
+<meta name="twitter:description" content="File I/O using C programming language"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://shihabmahamud.github.io/p/file-management-using-c/file_handling_c.jpg' /><style>
     section.copyright a.social-icon {
         float: right;
         margin-left: 7px;
@@ -198,13 +198,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/file-managment-using-c/">
-                <img src="/p/file-managment-using-c/file_handling_c_hu9919f7b3f46635b6673d32d5992520f9_107417_800x0_resize_q75_box.jpg"
-                        srcset="/p/file-managment-using-c/file_handling_c_hu9919f7b3f46635b6673d32d5992520f9_107417_800x0_resize_q75_box.jpg 800w, /p/file-managment-using-c/file_handling_c_hu9919f7b3f46635b6673d32d5992520f9_107417_1600x0_resize_q75_box.jpg 1600w"
+            <a href="/p/file-management-using-c/">
+                <img src="/p/file-management-using-c/file_handling_c_hu9919f7b3f46635b6673d32d5992520f9_107417_800x0_resize_q75_box.jpg"
+                        srcset="/p/file-management-using-c/file_handling_c_hu9919f7b3f46635b6673d32d5992520f9_107417_800x0_resize_q75_box.jpg 800w, /p/file-management-using-c/file_handling_c_hu9919f7b3f46635b6673d32d5992520f9_107417_1600x0_resize_q75_box.jpg 1600w"
                         width="800" 
                         height="419" 
                         loading="lazy"
-                        alt="Featured image of post File Managment Using C" />
+                        alt="Featured image of post File Management Using C" />
                 
             </a>
         </div>
@@ -222,9 +222,13 @@
     
 
     <h2 class="article-title">
-        <a href="/p/file-managment-using-c/">File Managment Using C</a>
+        <a href="/p/file-management-using-c/">File Management Using C</a>
     </h2>
 
+    
+    <h3 class="article-subtitle">
+        File I/O using C programming language
+    </h3>
     <footer class="article-time">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -239,12 +243,103 @@
 </header>
 
     <section class="article-content">
-    
+    <ol>
+<li><a class="link" href="#declear-file-pointer" >Declear FILE Pointer</a></li>
+<li><a class="link" href="#opening-file" >Opening file</a>
+<ol>
+<li><a class="link" href="#file-type-mode-table" >File type mode table</a></li>
+<li><a class="link" href="#open-file-with-error-checking" >Open file with Error checking</a></li>
+</ol>
+</li>
+<li><a class="link" href="#closing-file" >Closing file</a>
+<ol>
+<li><a class="link" href="#closing-file-with-error-checking" >Closing file with Error checking</a></li>
+</ol>
+</li>
+</ol>
+<h2 id="declear-file-pointer">Declear FILE Pointer</h2>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="n">FILE</span> <span class="o">*</span><span class="n">MyFile</span><span class="p">;</span>
+</code></pre></div><p>Here FILE is not C keyword, it is a structure that define in &lt;sthio.h&gt; header file.</p>
+<h2 id="opening-file">Opening file</h2>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/*
+</span><span class="cm">Header: &lt;stdio.h&gt;
+</span><span class="cm">Prototype: FILE *fopen(char*fname, char *made);
+</span><span class="cm">Return:
+</span><span class="cm">    - a FILE pointer    -&gt; if successfully
+</span><span class="cm">    - NULL              -&gt; On failure
+</span><span class="cm">
+</span><span class="cm">*/</span>
+<span class="n">MyFile</span> <span class="o">=</span> <span class="n">fopen</span> <span class="p">(</span><span class="err">“</span><span class="n">myfile</span><span class="p">.</span><span class="n">txt</span><span class="err">”</span><span class="p">,</span><span class="err">”</span><span class="n">w</span><span class="err">”</span><span class="p">);</span>
+</code></pre></div><h3 id="file-type-mode-table">File type mode table:</h3>
+<pre><code>The Legal Values for Mode
+
+Mode        Meaning
+----        -------
+&quot;r&quot;         Open a text file for reading.
+&quot;w&quot;         Create a text file for writing.
+&quot;a&quot;         Append to a text file.
+&quot;rb&quot;        Open a binary file for reading.
+&quot;wb&quot;        Create a binary file for writing.
+&quot;ab&quot;        Append to a binary file.
+&quot;r+&quot;        Open a text file for read/write.
+&quot;w+&quot;        Create a text file for read/write.
+&quot;a+&quot;        Append or create a text file for read/write.
+&quot;r+b&quot;       Open a binary file for read/write. You may also use &quot;rb+&quot;.
+&quot;w+b&quot;       Create a binary file for read/write. You may also use &quot;wb+&quot;.
+&quot;a+b&quot;       Append or create a binary file for read/write. You may also use &quot;ab+&quot;.
+</code></pre><h3 id="open-file-with-error-checking">Open file with Error checking</h3>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/*
+</span><span class="cm">Header: &lt;stdlib.h&gt;
+</span><span class="cm">Prototype: void exit (int status);
+</span><span class="cm">*/</span>
+<span class="cm">/*
+</span><span class="cm">Header: &lt;stdio.h&gt;
+</span><span class="cm">Macro: #define NULL ((void *)0)
+</span><span class="cm">*/</span>
+<span class="n">MyFile</span> <span class="o">=</span> <span class="n">fopen</span> <span class="p">(</span><span class="err">“</span><span class="n">myfile</span><span class="p">.</span><span class="n">txt</span><span class="err">”</span><span class="p">,</span><span class="err">”</span><span class="n">w</span><span class="err">”</span><span class="p">);</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">MyFile</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Error opening file</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="c1">// or substitute your own error handler
+</span><span class="c1"></span><span class="p">}</span>
+</code></pre></div><p>The C library Macro <code>NULL</code> is the value of a null pointer constant. It may be defined as <code>((void*)0)</code>, <code>0</code> or <code>0L</code> depending on the compiler vendor. It&rsquo;s define in &lt;stdio.h&gt; header file.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="c1">// This fragment is same as the previes on but more efficient
+</span><span class="c1"></span><span class="k">if</span> <span class="p">((</span><span class="n">MyFile</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="s">&#34;myfile.txt&#34;</span><span class="p">,</span> <span class="s">&#34;w&#34;</span><span class="p">))</span> <span class="o">==</span> <span class="nb">NULL</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Error opening file</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><h2 id="closing-file">Closing file</h2>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/*
+</span><span class="cm">Header: &lt;stdio.h&gt;
+</span><span class="cm">Prototype = int fclose(FILE *fp);
+</span><span class="cm">Return:
+</span><span class="cm">    - 0             -&gt; if the stream is successfully closed.
+</span><span class="cm">    - EOF or -1     -&gt; On failure
+</span><span class="cm">*/</span>
+
+<span class="cm">/*
+</span><span class="cm">Header: &lt;stdio.h&gt;
+</span><span class="cm">Macro: #define EOF (-1)
+</span><span class="cm">*/</span>
+<span class="n">fclose</span> <span class="p">(</span><span class="n">MyFile</span><span class="p">);</span>
+</code></pre></div><h3 id="closing-file-with-error-checking">Closing file with Error checking</h3>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="k">if</span> <span class="p">(</span><span class="n">fclose</span><span class="p">(</span><span class="n">MyFile</span><span class="p">)</span> <span class="o">==</span> <span class="n">EOF</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Error closing destination file.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
 </section>
 
 
     <footer class="article-footer">
     
+    <section class="article-tags">
+        
+            <a href="/tags/frogramming/">Frogramming</a>
+        
+            <a href="/tags/file-i/o/">File-I/O</a>
+        
+    </section>
+
 
     </footer>
 

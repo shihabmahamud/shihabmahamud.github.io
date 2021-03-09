@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Mar 2021 06:31:25 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>File Managment Using C</title>
-      <link>https://shihabmahamud.github.io/p/file-managment-using-c/</link>
+      <title>File Management Using C</title>
+      <link>https://shihabmahamud.github.io/p/file-management-using-c/</link>
       <pubDate>Tue, 09 Mar 2021 06:31:25 +0600</pubDate>
       
-      <guid>https://shihabmahamud.github.io/p/file-managment-using-c/</guid>
-      <description></description>
+      <guid>https://shihabmahamud.github.io/p/file-management-using-c/</guid>
+      <description>Declear FILE Pointer Opening file  File type mode table Open file with Error checking   Closing file  Closing file with Error checking    Declear FILE Pointer FILE *MyFile; Here FILE is not C keyword, it is a structure that define in &amp;lt;sthio.h&amp;gt; header file.
+Opening file /* Header: &amp;lt;stdio.h&amp;gt; Prototype: FILE *fopen(char*fname, char *made); Return: - a FILE pointer -&amp;gt; if successfully - NULL -&amp;gt; On failure */ MyFile = fopen (“myfile.</description>
     </item>
     
     <item>

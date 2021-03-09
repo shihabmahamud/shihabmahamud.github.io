@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Shihab Mahamud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2020 01:24:43 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 06:31:25 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frogramming</title>
+      <link>https://shihabmahamud.github.io/tags/frogramming/</link>
+      <pubDate>Tue, 09 Mar 2021 06:31:25 +0600</pubDate>
+      
+      <guid>https://shihabmahamud.github.io/tags/frogramming/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Book-review</title>
       <link>https://shihabmahamud.github.io/tags/book-review/</link>
@@ -31,6 +40,15 @@
       <pubDate>Tue, 22 Sep 2020 01:24:43 +0600</pubDate>
       
       <guid>https://shihabmahamud.github.io/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File-I/O</title>
+      <link>https://shihabmahamud.github.io/tags/file-i/o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shihabmahamud.github.io/tags/file-i/o/</guid>
       <description></description>
     </item>
     
