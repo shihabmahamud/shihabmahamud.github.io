@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Shihab Mahamud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 06:31:25 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 10:09:41 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CPH Documentation</title>
+      <link>https://shihabmahamud.github.io/p/cph-documentation/</link>
+      <pubDate>Tue, 09 Mar 2021 10:09:41 +0600</pubDate>
+      
+      <guid>https://shihabmahamud.github.io/p/cph-documentation/</guid>
+      <description>Summary Competitive Programming Helper (CPH) is a command line tool that automates many tasks for the Competitive Programmer. It&amp;rsquo;s written in Bash shell scripting.
+ Installation Installation on linux system Step 1: Install dependence
+If the dependence does not install in your system then you must install it. The dependence are bash, curl and g++
+Debian/Ubuntu:
+sudo apt update sudo apt install bash curl g++ Fadora/Centos:
+sudo dnf check-update sudo dnf install bash curl g++ Step 2: Install the cph tools curl -fLo cph https://raw.</description>
+    </item>
+    
     <item>
       <title>File Management Using C</title>
       <link>https://shihabmahamud.github.io/p/file-management-using-c/</link>

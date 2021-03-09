@@ -6,7 +6,66 @@
         <description>Recent content on Shihab Mahamud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 09 Mar 2021 06:31:25 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 09 Mar 2021 10:09:41 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CPH Documentation</title>
+        <link>https://shihabmahamud.github.io/p/cph-documentation/</link>
+        <pubDate>Tue, 09 Mar 2021 10:09:41 +0600</pubDate>
+        
+        <guid>https://shihabmahamud.github.io/p/cph-documentation/</guid>
+        <description>&lt;img src="https://shihabmahamud.github.io/p/cph-documentation/Competitive-Programming-img.png" alt="Featured image of post CPH Documentation" /&gt;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Competitive Programming Helper (CPH) is a command line tool that automates many tasks for the Competitive Programmer. It&amp;rsquo;s written in Bash shell scripting.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;h3 id=&#34;installation-on-linux-system&#34;&gt;Installation on linux system&lt;/h3&gt;
+&lt;p&gt;Step 1: Install dependence&lt;/p&gt;
+&lt;p&gt;If the dependence does not install in your system then you must install it. The dependence are &lt;code&gt;bash&lt;/code&gt;, &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;g++&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Debian/Ubuntu:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;sudo apt update
+sudo apt install bash curl g++
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Fadora/Centos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;sudo dnf check-update
+sudo dnf install bash curl g++
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-install-the-cph-tools&#34;&gt;Step 2: Install the cph tools&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;curl -fLo cph https://raw.githubusercontent.com/shihabmahamud/cph/main/cph.sh
+chmod +x cph
+sudo mv cph /usr/bin/
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-3-copy-your-cp-template-into-cph_template&#34;&gt;Step 3: Copy your cp template into ~/cph_template&lt;/h4&gt;
+&lt;p&gt;Then go to the your competitive programming template directory and then run &lt;code&gt;cph update yourCPTemplateName&lt;/code&gt; like that&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph update cp_template.cpp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&#34;1-create-cc-file-and-copy-your-template&#34;&gt;1. Create C/C++ file and copy your template&lt;/h3&gt;
+&lt;p&gt;It creates a C or C++ file and copies the user Competitive Programming Template into it. Copy the template code from &lt;code&gt;~/cph_template&lt;/code&gt; file. So, if you want to use this feature create the ~/cph_template file fllowing &lt;a class=&#34;link&#34; href=&#34;#step-3-copy-your-cp-template-into-cph_template&#34; &gt;Installation on linux system
+Step 3&lt;/a&gt; with your template.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph &lt;span class=&#34;s2&#34;&gt;&amp;#34;filename.c++
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;OR&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph create &lt;span class=&#34;s2&#34;&gt;&amp;#34;filename.c++&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph myfile.c
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All these commands only work in bash shell. If you run this in other shell (like &lt;code&gt;zsh&lt;/code&gt;) include &lt;code&gt;bash&lt;/code&gt; command before any command like that:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;bash cph create &lt;span class=&#34;s2&#34;&gt;&amp;#34;filename.c++&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-create-cc-file-copy-your-template-and-open-the-file-in-vs-codehttpscodevisualstudiocom-in-one-command&#34;&gt;2. Create C/C++ file, copy your template and open the file in &lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;vs code&lt;/code&gt;&lt;/a&gt; in one command&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph code &lt;span class=&#34;s2&#34;&gt;&amp;#34;filename.c++&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;3-compiled-and-run-cc-file-with-one-command&#34;&gt;3. Compiled and Run C/C++ file with one command&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph run &lt;span class=&#34;s2&#34;&gt;&amp;#34;filename.cpp&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command automatic Compiled spacifie file using &lt;code&gt;GNU Gcc Compiler&lt;/code&gt; and run the Compiled binary&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;4-automatic-copy-or-update-cph_template-with-your-template&#34;&gt;4. Automatic copy or update ~/.cph_template with Your template&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph update &lt;span class=&#34;s2&#34;&gt;&amp;#34;templateName.cpp&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command automatic copy the ~/.cph_temple with user template that user want&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;5-git-add--git-commit-and-git-push-in-one-command&#34;&gt;5. &lt;code&gt;git add .&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt; and &lt;code&gt;git push&lt;/code&gt; in one command&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;6-add-current-time-in-your-program-file&#34;&gt;6. Add current time in your program file&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cph &lt;span class=&#34;nb&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;programFile.cpp&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
         <title>File Management Using C</title>
         <link>https://shihabmahamud.github.io/p/file-management-using-c/</link>
         <pubDate>Tue, 09 Mar 2021 06:31:25 +0600</pubDate>
