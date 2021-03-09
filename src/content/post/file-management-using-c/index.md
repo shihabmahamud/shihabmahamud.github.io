@@ -9,7 +9,7 @@ categories : [
     "Blogs",
 ]
 tags : [
-    "Frogramming",
+    "Programming",
     "File-I/O"
 ]
 draft: false
