@@ -26,7 +26,7 @@ Competitive Programming Helper (CPH) is a command line tool that automates many 
 
 ### Installation on linux system
 
-Step 1: Install dependence
+#### Step 1: Install dependence
 
 If the dependence does not install in your system then you must install it. The dependence are `bash`, `curl` and `g++`
 
