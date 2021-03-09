@@ -1,7 +1,7 @@
 ---
 title: "প্রোগ্রামিংয়ের আশ্চর্য জগৎ বই রিভিউ"
 # description: "ভুল ভাবে প্রোগ্রামিং শেখার মাধ্যমে তাদের ভবিষ্যৎ হুমকি মুখে পড়তে পারে"
-author: "Hugo Authors"
+author: "Shihab Mahamud"
 date: 2020-09-22T01:24:43+06:00
 # draft: true
 tags : [
