@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://shihabmahamud.github.io/categories/blogs/</loc>
+    <lastmod>2021-03-09T06:31:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shihabmahamud.github.io/categories/</loc>
+    <lastmod>2021-03-09T06:31:25+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shihabmahamud.github.io/p/file-managment-using-c/</loc>
     <lastmod>2021-03-09T06:31:25+06:00</lastmod>
   </url>
@@ -18,27 +28,17 @@
   </url>
   
   <url>
-    <loc>https://shihabmahamud.github.io/categories/book-review/</loc>
+    <loc>https://shihabmahamud.github.io/tags/book-review/</loc>
     <lastmod>2020-09-22T01:24:43+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shihabmahamud.github.io/categories/</loc>
+    <loc>https://shihabmahamud.github.io/tags/programming/</loc>
     <lastmod>2020-09-22T01:24:43+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shihabmahamud.github.io/categories/programming/</loc>
-    <lastmod>2020-09-22T01:24:43+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shihabmahamud.github.io/tags/programming-gideline/</loc>
-    <lastmod>2020-09-22T01:24:43+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shihabmahamud.github.io/categories/review/</loc>
+    <loc>https://shihabmahamud.github.io/tags/review/</loc>
     <lastmod>2020-09-22T01:24:43+06:00</lastmod>
   </url>
   

@@ -5,12 +5,12 @@ author: "Shihab Mahamud"
 date: 2020-09-22T01:24:43+06:00
 # draft: true
 tags : [
-    "programming-gideline"
-]
-categories : [
     "Programming",
     "Review",
     "Book-review",
+]
+categories : [
+    "Blogs",
 ]
 # series : ["Themes Guide"]
 # aliases : ["migrate-from-jekyl"]

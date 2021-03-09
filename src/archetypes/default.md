@@ -5,7 +5,11 @@ date: {{ .Date }}
 author: "Shihab Mahamud"
 image: 
 math:  
-hidden: false
-comments: false
+categories : [
+    "Blogs",
+]
+tags : [
+
+]
 draft: true
 ---
