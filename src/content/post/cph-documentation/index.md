@@ -1,6 +1,6 @@
 ---
-title: "CPH Documentation"
-description: Competitive Programming Helper offcial docs
+title: "CPH Tool Documentation"
+description: Competitive Programming Helper Offcial docs
 date: 2021-03-09T10:09:41+06:00
 author: "Shihab Mahamud"
 image: "Competitive-Programming-img.png"
@@ -20,13 +20,13 @@ draft: false
 
 Competitive Programming Helper (CPH) is a command line tool that automates many tasks for the Competitive Programmer. It's written in Bash shell scripting.
 
-
-<script id="asciicast-398380" src="https://asciinema.org/a/398380.js" async></script>
 ---
 
 ## Installation
 
 ### Installation on linux system
+
+<script id="asciicast-398397" src="https://asciinema.org/a/398397.js" async></script>
 
 #### Step 1: Install dependence
 

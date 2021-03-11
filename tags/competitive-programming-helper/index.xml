@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Mar 2021 10:09:41 +0600</lastBuildDate><atom:link href="https://shihabmahamud.github.io/tags/competitive-programming-helper/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CPH Documentation</title>
-      <link>https://shihabmahamud.github.io/p/cph-documentation/</link>
+      <title>CPH Tool Documentation</title>
+      <link>https://shihabmahamud.github.io/p/cph-tool-documentation/</link>
       <pubDate>Tue, 09 Mar 2021 10:09:41 +0600</pubDate>
       
-      <guid>https://shihabmahamud.github.io/p/cph-documentation/</guid>
+      <guid>https://shihabmahamud.github.io/p/cph-tool-documentation/</guid>
       <description>Summary Competitive Programming Helper (CPH) is a command line tool that automates many tasks for the Competitive Programmer. It&amp;rsquo;s written in Bash shell scripting.
  Installation Installation on linux system Step 1: Install dependence If the dependence does not install in your system then you must install it. The dependence are bash, curl and g++
 Debian/Ubuntu:
