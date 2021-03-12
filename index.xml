@@ -17,7 +17,26 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;h3 id=&#34;installation-on-linux-system&#34;&gt;Installation on linux system&lt;/h3&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;
+    &lt;asciinema-player
+        src=&#34;https://shihabmahamud.github.io/casts/cph-tool-install.cast&#34;
+        cols=&#34;100&#34;
+        rows=&#34;20&#34;
+        
+        preload=&#34;1&#34;
+        
+        start-at=&#34;0&#34;
+        speed=&#34;1&#34;
+        
+        
+        
+        
+        
+        
+        
+        
+    &gt;&lt;/asciinema-player&gt;
+&lt;/p&gt;
 &lt;h4 id=&#34;step-1-install-dependence&#34;&gt;Step 1: Install dependence&lt;/h4&gt;
 &lt;p&gt;If the dependence does not install in your system then you must install it. The dependence are &lt;code&gt;bash&lt;/code&gt;, &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;g++&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Debian/Ubuntu:&lt;/p&gt;

@@ -14,6 +14,7 @@ tags : [
     "Competitive-programming-helper",
 ]
 draft: false
+asciinema: true
 ---
 
 ## Summary
@@ -26,7 +27,9 @@ Competitive Programming Helper (CPH) is a command line tool that automates many 
 
 ### Installation on linux system
 
-<script id="asciicast-398397" src="https://asciinema.org/a/398397.js" async></script>
+
+{{< asciinema key="cph-tool-install" rows="20" preload="1" cols="100" >}}
+
 
 #### Step 1: Install dependence
 
