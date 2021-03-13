@@ -1,6 +1,6 @@
 ---
 title: "CPH Tool Documentation"
-description: Competitive Programming Helper Offcial docs
+description: Competitive Programming Helper Official docs
 date: 2021-03-09T10:09:41+06:00
 author: "Shihab Mahamud"
 image: "Competitive-Programming-img.png"
